@@ -1,0 +1,34 @@
+ <div class="slick">
+              <div class="slick-item">
+                <img src="assets/img/slick-items/1.png" alt="">
+                <div class="content">
+                  <h3>Option 1</h3>
+                  <div class="slick-description">Lusandae distinctio ipsum possimus, similique libero nam sunt culpa quisquam doloremque minima, consequuntur dignissimos porro reprehenderit praesentium aliquam! Corrupti deleniti quibusdam accusamus.</div>
+                  <button>Click me</button>
+                </div>
+              </div>
+              <div class="slick-item">
+                <img src="assets/img/slick-items/1.png" alt="">
+                <div class="content">
+                  <h3>Option 2</h3>
+                  <div class="slick-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae distinctio ipsum possimus, similique libero nam sunt culpa quisquam doloremque minima, consequuntur dignissimos porro reprehenderit praesentium aliquam! Corrupti deleniti quibusdam accusamus.</div>
+                  <button>Click me</button>
+                </div>
+              </div>
+              <div class="slick-item">
+                <img src="assets/img/slick-items/1.png" alt="">
+                <div class="content">
+                  <h3>Option 3</h3>
+                  <div class="slick-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae distinctio ipsum possimus, similique libero nam sunt culpa quisquam doloremque minima, consequuntur dignissimos porro reprehenderit praesentium aliquam! Corrupti deleniti quibusdam accusamus.</div>
+                  <button>Click me</button>
+                </div>
+              </div>
+              <div class="slick-item">
+                <img src="assets/img/slick-items/1.png" alt="">
+                <div class="content">
+                  <h3>Option 4</h3>
+                  <div class="slick-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae distinctio ipsum possimus, similique libero nam sunt culpa quisquam doloremque minima, consequuntur dignissimos porro reprehenderit praesentium aliquam! Corrupti deleniti quibusdam accusamus.</div>
+                  <button>Click me</button>
+                </div>
+              </div>
+            </div>

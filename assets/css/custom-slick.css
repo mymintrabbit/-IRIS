@@ -1,13 +1,14 @@
 .slick-item {
   position: relative;
   box-sizing: border-box;
-  border: 1px solid red; /* remove this line */
+ 
   padding: 16px;
-  width: 400px;
-  height: auto;
+  width: auto;
+  height: 700px;
 }
 .slick-item img {
-  width: 100%;
+  width: 110%;
+  margin: 50px;
 }
 
 .slick-item .content {
