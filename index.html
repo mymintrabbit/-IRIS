@@ -26,7 +26,7 @@
 
   
   <link href="assets/css/style.css" rel="stylesheet">
-  
+
   <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
 
@@ -38,26 +38,19 @@
   <!-- 💗💕NaV Bar💕💗-->
   <header id="header" class="fixed-top header-transparent">
     <div class="container">
-
       <div class="logo float-left">
-        
-         <a href="#hero" rel="home">
-          <img   src="/assets/img/siteid.png"></a>
-        
-       
+        <a href="#hero" rel="home">
+        <img   src="/assets/img/siteid.png"></a>
       </div>
-
       <nav class="nav-menu float-right d-none d-lg-block">
         <ul>
-          
           <li><a href="#about">ABOUT IRIS</a></li>
           <li><a href="#vision">VISION</a></li>
           <li><a href="#solution">SOLUTION</a></li>
           <li><a href="#Eq">EQUIPMENT</a></li>
           <li><a href="#contact">CONTACT IRIS</a></li>
-          </ul>
+        </ul>
       </nav><!-- .nav-menu -->
-
     </div>
   </header>
   <!-- 💗✨💕✨💕✨💗-->
@@ -73,26 +66,21 @@
             <h4 style="color: white;">WE SPECIALISE IN</h4>
             <h2 class="animated fadeInDown">AVIATION REFUELING SYSTEM</h2>
 
+            <div class="slick">
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+              <div>4</div>
+            </div>
+
                   <!--🐰-->
                   <div class="mx-auto animated fadeInUp nav-menu" style="width: 200px;">
-                     <button type="button" class="btn btn-primary" style="border-radius: 50px; background-color: #005582; border: 0ch;"><a href="#contact">REQUEST A DEMO</a></button>
+                     <button type="button" class="btn btn-primary" style="border-radius: 50px; background-color: #005582; border: 0ch;">
+                      <a href="#contact">REQUEST A DEMO</a>
+                    </button>
                   </div>
         </div>
       </div>
-
-
-      
-      <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-      <script type="text/javascript" src="slick/slick.min.js"></script>
-    
-      <script type="text/javascript">
-        $(document).ready(function(){
-          $('.your-class').slick({
-            setting-name: setting-value
-          });
-        });
-      </script>
 
   </section>
   <!-- 💗💕🌸💕💗-->
@@ -377,8 +365,18 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-
- 
+  <!-- Initialize Slick and jquery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.slick').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 3,
+      });
+    });
+  </script>
 </body>
 
 </html>
