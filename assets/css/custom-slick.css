@@ -1,0 +1,32 @@
+.slick-item {
+  position: relative;
+  box-sizing: border-box;
+  border: 1px solid red; /* remove this line */
+  padding: 16px;
+  width: 400px;
+  height: auto;
+}
+.slick-item img {
+  width: 100%;
+}
+
+.slick-item .content {
+  padding: 16px;
+  background-color: cornflowerblue;
+}
+
+.slick-item .content .slick-description,
+.slick-item .content button {
+  display: none;
+}
+.slick-current .content button,
+.slick-current .content .slick-description {
+  display: block;
+}
+
+.slick-current .content {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 100px;
+}

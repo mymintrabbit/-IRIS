@@ -29,6 +29,7 @@
 
   <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/custom-slick.css"/>
 
 </head>
 
@@ -66,19 +67,47 @@
             <h4 style="color: white;">WE SPECIALISE IN</h4>
             <h2 class="animated fadeInDown">AVIATION REFUELING SYSTEM</h2>
 
-            <div class="slick">
-              <div>1</div>
-              <div>2</div>
-              <div>3</div>
-              <div>4</div>
+            <!--🐰-->
+            <div class="mx-auto animated fadeInUp nav-menu" style="width: 200px;">
+                <button type="button" class="btn btn-primary" style="border-radius: 50px; background-color: #005582; border: 0ch;">
+                <a href="#contact">REQUEST A DEMO</a>
+              </button>
             </div>
 
-                  <!--🐰-->
-                  <div class="mx-auto animated fadeInUp nav-menu" style="width: 200px;">
-                     <button type="button" class="btn btn-primary" style="border-radius: 50px; background-color: #005582; border: 0ch;">
-                      <a href="#contact">REQUEST A DEMO</a>
-                    </button>
-                  </div>
+            <div class="slick">
+              <div class="slick-item">
+                <img src="assets/img/slick-items/1.png" alt="">
+                <div class="content">
+                  <h3>Option 1</h3>
+                  <div class="slick-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae distinctio ipsum possimus, similique libero nam sunt culpa quisquam doloremque minima, consequuntur dignissimos porro reprehenderit praesentium aliquam! Corrupti deleniti quibusdam accusamus.</div>
+                  <button>Click me</button>
+                </div>
+              </div>
+              <div class="slick-item">
+                <img src="assets/img/slick-items/1.png" alt="">
+                <div class="content">
+                  <h3>Option 2</h3>
+                  <div class="slick-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae distinctio ipsum possimus, similique libero nam sunt culpa quisquam doloremque minima, consequuntur dignissimos porro reprehenderit praesentium aliquam! Corrupti deleniti quibusdam accusamus.</div>
+                  <button>Click me</button>
+                </div>
+              </div>
+              <div class="slick-item">
+                <img src="assets/img/slick-items/1.png" alt="">
+                <div class="content">
+                  <h3>Option 3</h3>
+                  <div class="slick-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae distinctio ipsum possimus, similique libero nam sunt culpa quisquam doloremque minima, consequuntur dignissimos porro reprehenderit praesentium aliquam! Corrupti deleniti quibusdam accusamus.</div>
+                  <button>Click me</button>
+                </div>
+              </div>
+              <div class="slick-item">
+                <img src="assets/img/slick-items/1.png" alt="">
+                <div class="content">
+                  <h3>Option 4</h3>
+                  <div class="slick-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae distinctio ipsum possimus, similique libero nam sunt culpa quisquam doloremque minima, consequuntur dignissimos porro reprehenderit praesentium aliquam! Corrupti deleniti quibusdam accusamus.</div>
+                  <button>Click me</button>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
 
@@ -372,7 +401,6 @@
     $(document).ready(function(){
       $('.slick').slick({
         centerMode: true,
-        centerPadding: '60px',
         slidesToShow: 3,
       });
     });
